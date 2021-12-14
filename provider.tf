@@ -3,12 +3,3 @@ provider "aws" {
 }
 
 
-terraform {
-  backend "remote" {
-    organization = "shah-demo"
-
-    workspaces {
-      name = "vpc-test"
-    }
-  }
-}
