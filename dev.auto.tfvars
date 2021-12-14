@@ -1,5 +1,5 @@
 aws_region           = "us-east-1"
-vpcname              = "MyVpc"
+vpcname              = "demo"
 vpc_cidr_block       = "10.40.0.0/17"
 public_subnets       = [
   "10.40.0.0/20",
